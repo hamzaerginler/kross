@@ -58,5 +58,6 @@ export default function Page() {
       {/* Contact Section */}
       <section id="contact"><ContactSection /></section>
     </main>
+    
   );
 }
