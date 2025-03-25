@@ -1,0 +1,62 @@
+/* Button style */
+.btn {
+  font-size: 22px;
+  font-family: 'YourSecondaryFont', sans-serif; /* Gerçek font ailesi ile değiştirin */
+  text-transform: capitalize;
+  padding: 16px 44px;
+  border-radius: 5px;
+  font-weight: 600;
+  border: 0;
+  position: relative;
+  z-index: 1;
+  transition: .2s ease;
+}
+
+.btn:focus {
+  outline: 0;
+  box-shadow: none !important;
+}
+
+.btn:active {
+  box-shadow: none;
+}
+
+.btn-sm {
+  font-size: 15px;
+  padding: 10px 30px;
+}
+
+.btn-xs {
+  padding: 5px 10px;
+  font-size: 15px;
+}
+
+.btn-primary {
+  background: #3498db; /* Gerçek ana renk ile değiştirin */
+  color: #ffffff;
+}
+
+.btn-primary:active {
+  background: #2980b9 !important; /* Açık renk için manuel değer */
+}
+
+.btn-primary:hover {
+  background: #2980b9; /* Açık renk için manuel değer */
+}
+
+.btn-primary.focus,
+.btn-primary.active {
+  background: #2980b9 !important; /* Açık renk için manuel değer */
+  box-shadow: none !important;
+}
+
+.btn-transparent {
+  background: transparent;
+  color: #3498db; /* Gerçek ana renk ile değiştirin */
+  font-weight: bold;
+}
+
+.btn-transparent:active,
+.btn-transparent:hover {
+  color: #3498db; /* Gerçek ana renk ile değiştirin */
+}

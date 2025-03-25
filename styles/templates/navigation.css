@@ -1,0 +1,37 @@
+.navigation {
+    padding: 40px 130px;
+    transition: 0.3s ease;
+    background: #41228e; /* $primary-color yerine uygun renk */
+  
+  }
+  
+  /* Nav-bg için ayrı bir sınıf */
+  .navigation.nav-bg {
+    background-color: #ececec;
+    padding: 15px 100px;
+  }
+  
+  @media (max-width: 991px) {
+    .navigation {
+      padding: 20px;
+      background: #41228e;
+    }
+    
+    .navigation.nav-bg {
+      padding: 15px 20px;
+    }
+  }
+  
+  .navbar .nav-item .nav-link {
+    font-family: 'Playfair Display', serif; /* $secondary-font yerine uygun font */
+    text-transform: uppercase;
+    padding: 15px;
+  }
+  
+  .navbar .nav-item.active {
+    font-weight: bold;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link {
+    color: #fff; /* $white yerine uygun renk */
+  }

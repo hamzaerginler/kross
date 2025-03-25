@@ -1,0 +1,62 @@
+/* Typography */
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:700|Roboto:400');
+
+body {
+  line-height: 1.2;
+  font-family: 'Roboto', sans-serif; /* $primary-font yerine */
+  -webkit-font-smoothing: antialiased;
+  font-size: 15px;
+  color: #333333; /* $text-color yerine */
+}
+
+p, .paragraph {
+  font-weight: 400;
+  color: #333333; /* $text-color yerine */
+  font-size: 15px;
+  line-height: 1.8;
+  font-family: 'Roboto', sans-serif; /* $primary-font yerine */
+}
+
+.paragraph-lg {
+  font-size: 22px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #222222; /* $text-color-dark yerine */
+  font-family: 'Playfair Display', serif; /* $secondary-font yerine */
+  line-height: 1.2;
+}
+
+h1, .h1 {
+  font-size: 80px;
+}
+
+h2, .h2 {
+  font-size: 60px;
+}
+
+h3, .h3 {
+  font-size: 40px;
+}
+
+h4, .h4 {
+  font-size: 22px;
+}
+
+h5, .h5 {
+  font-size: 18px;
+}
+
+h6, .h6 {
+  font-size: 14px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 991px) { /* Desktop */
+  h1, .h1 {
+    font-size: 65px;
+  }
+  h2, .h2 {
+    font-size: 50px;
+  }
+}

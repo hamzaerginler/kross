@@ -1,0 +1,33 @@
+.card-lg {
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  
+  @media (max-width: 991px) {
+    .card-lg {
+      flex-direction: column;
+    }
+  }
+  
+  blockquote {
+    display: inline-block;
+    padding: 20px 25px;
+    background: #eaeaea; /* $gray */
+    border-left: 3px solid #41228e; /* $primary-color */
+    font-style: italic;
+    font-size: 22px;
+    line-height: 1.7;
+  }
+  
+  .content * {
+    margin-bottom: 20px;
+  }
+  
+  .content strong {
+    font-family: 'Playfair Display', serif; /* $secondary-font */
+    font-size: 22px;
+    font-weight: normal;
+    color: #000; /* $text-color-dark */
+    display: inherit;
+    line-height: 1.5;
+  }

@@ -1,0 +1,322 @@
+/* Mobile XS - max-width: 400px */
+@media (max-width: 400px) {
+  body {
+    background-color: lightblue; /* Örnek: Arka plan rengini değiştirme */
+  }
+
+  h1 {
+    font-size: 18px; /* Örnek: Başlık font boyutunu küçültme */
+  }
+
+  .container {
+    padding: 10px; /* Örnek: İçerik alanının padding değerini ayarlama */
+  }
+
+  .button {
+    width: 100%; /* Örnek: Buton genişliğini %100 yapma */
+  }
+}
+
+/* Mobile - max-width: 575px */
+@media (max-width: 575px) {
+  .some-element {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+
+/* Tablet - max-width: 767px */
+@media (max-width: 767px) {
+  body {
+    background-color: #f4f4f4; /* Tablet ekranlar için arka plan rengi */
+  }
+
+  /* Başlık boyutunu küçültme */
+  h1 {
+    font-size: 24px; /* Başlık font boyutunu tablet boyutuna göre ayarlama */
+  }
+
+  /* Container genişliği ve padding */
+  .container {
+    width: 100%; /* Container genişliğini %100 yapma */
+    padding: 15px; /* Padding değerini artırma */
+  }
+
+  /* Buton genişliği */
+  .button {
+    width: 100%; /* Butonun tablet ekranlarda tam genişlikte olmasını sağlama */
+    padding: 12px; /* Butonun içeriğini daha büyük yapma */
+    font-size: 16px; /* Buton font boyutunu büyütme */
+  }
+
+  /* Menü öğelerini daha küçük yapma */
+  .menu {
+    font-size: 14px; /* Menü metin boyutunu küçültme */
+  }
+
+  /* Resimlerin genişliğini %100 yapma */
+  img {
+    width: 100%; /* Resimlerin ekran genişliğine uyumlu olmasını sağlama */
+    height: auto; /* Yüksekliğini orantılı şekilde ayarlama */
+  }
+
+  /* Navigasyon barını düzenleme */
+  .navbar {
+    padding: 10px; /* Navbar padding değerini düşürme */
+    text-align: center; /* Navbardaki metni ortalama */
+  }
+
+  /* Form alanlarının genişliğini %100 yapma */
+  .form-control {
+    width: 100%; /* Form inputlarının tablet ekranlarında tam genişlikte olmasını sağlama */
+    padding: 10px; /* Padding değerini artırma */
+  }
+
+  /* Card elemanlarını düzenleme */
+  .card {
+    margin-bottom: 20px; /* Card alt margin değerini ayarlama */
+    padding: 15px; /* Card iç padding değerini artırma */
+  }
+
+  /* Footer'ı yeniden hizalama */
+  .footer {
+    text-align: center; /* Footer metnini ortalama */
+    padding: 20px; /* Footer iç padding değerini artırma */
+  }
+}
+
+/* Desktop - max-width: 991px */
+@media (max-width: 991px) {
+  body {
+    background-color: #ffffff; /* Masaüstü için arka plan rengi */
+  }
+
+  /* Başlık boyutlarını ayarlama */
+  h1 {
+    font-size: 28px; /* H1 başlık font boyutunu ayarlama */
+  }
+
+  h2 {
+    font-size: 24px; /* H2 başlık font boyutunu ayarlama */
+  }
+
+  /* Container genişliği */
+  .container {
+    width: 90%; /* Container genişliğini %90 yapma */
+    padding: 20px; /* Padding değerini artırma */
+  }
+
+  /* Menü öğeleri */
+  .menu {
+    font-size: 16px; /* Menü font boyutunu ayarlama */
+    margin: 0 auto; /* Menü öğelerini ortalama */
+  }
+
+  /* Buton genişliği */
+  .button {
+    width: auto; /* Buton genişliğini otomatik yapma */
+    padding: 12px 25px; /* Butonun yatay padding değerini artırma */
+    font-size: 18px; /* Buton font boyutunu artırma */
+  }
+
+  /* Resimler */
+  img {
+    max-width: 100%; /* Resimlerin genişliğini sınırla */
+    height: auto; /* Yüksekliği orantılı şekilde ayarla */
+  }
+
+  /* Navigasyon barını düzenleme */
+  .navbar {
+    padding: 15px 20px; /* Navbar iç padding değerini artırma */
+    text-align: left; /* Navbar metnini sola hizalama */
+  }
+
+  /* Card elemanları */
+  .card {
+    margin-bottom: 30px; /* Card alt margin değerini artırma */
+    padding: 20px; /* Card iç padding değerini artırma */
+    border-radius: 10px; /* Card kenarlarını yuvarlama */
+  }
+
+  /* Form alanlarının düzenlenmesi */
+  .form-control {
+    width: 100%; /* Form inputlarının genişliğini %100 yapma */
+    padding: 10px; /* Padding değerini artırma */
+    font-size: 16px; /* Font boyutunu artırma */
+  }
+
+  /* Footer düzenlemesi */
+  .footer {
+    text-align: center; /* Footer metnini ortalama */
+    padding: 30px 20px; /* Footer iç padding değerini artırma */
+  }
+
+  /* Grid düzeni */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 sütunlu grid düzeni */
+    gap: 20px; /* Grid arasındaki boşluğu artırma */
+  }
+
+  /* Flex düzeni */
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap; /* Flex elemanlarının sarmasını sağlama */
+    justify-content: space-between; /* Elemanlar arasında boşluk bırakma */
+  }
+
+  /* Yatay scroll engelleme */
+  .overflow-x-hidden {
+    overflow-x: hidden; /* Yatay kaydırma çubuğunu engelleme */
+  }
+}
+
+
+/* Desktop Large - max-width: 1200px */
+@media (max-width: 1200px) {
+  body {
+    background-color: #fafafa; /* Arka plan rengini açık griye ayarladım */
+  }
+
+  /* Başlık Boyutları */
+  h1 {
+    font-size: 32px; /* H1 başlık font boyutunu biraz küçülttüm */
+  }
+
+  h2 {
+    font-size: 28px; /* H2 başlık font boyutunu biraz küçülttüm */
+  }
+
+  /* Container Genişliği */
+  .container {
+    width: 95%; /* Container genişliğini %95 yaparak daha fazla boşluk bıraktım */
+    padding: 30px; /* İç padding değerini biraz daha arttırdım */
+  }
+
+  /* Menü Öğeleri */
+  .menu {
+    font-size: 18px; /* Menü font boyutunu biraz büyüttüm */
+    margin: 0 auto; /* Menü öğelerini yatayda ortaladım */
+  }
+
+  /* Buton Stilleri */
+  .button {
+    width: auto; /* Buton genişliğini otomatik yaparak daha esnek hale getirdim */
+    padding: 15px 30px; /* Buton iç padding değerini büyüttüm */
+    font-size: 20px; /* Buton font boyutunu biraz büyüttüm */
+  }
+
+  /* Resimler */
+  img {
+    max-width: 100%; /* Resimlerin genişliğini sınırladım */
+    height: auto; /* Yüksekliği orantılı şekilde ayarladım */
+  }
+
+  /* Navigasyon Barı */
+  .navbar {
+    padding: 20px 25px; /* Navbar iç padding değerini artırdım */
+    text-align: left; /* Navbar metnini sola hizaladım */
+  }
+
+  /* Card Elemanları */
+  .card {
+    margin-bottom: 40px; /* Card alt margin değerini artırdım */
+    padding: 25px; /* Card iç padding değerini artırdım */
+    border-radius: 12px; /* Card kenarlarını hafif yuvarladım */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Hafif gölge ekledim */
+  }
+
+  /* Form Alanları */
+  .form-control {
+    width: 100%; /* Form inputlarını %100 genişlikte yaptım */
+    padding: 12px; /* Padding değerini artırdım */
+    font-size: 18px; /* Font boyutunu biraz büyüttüm */
+  }
+
+  /* Footer */
+  .footer {
+    text-align: center; /* Footer metnini ortaladım */
+    padding: 40px 25px; /* Footer iç padding değerini artırdım */
+    background-color: #222; /* Footer arka plan rengini koyu gri yaptım */
+    color: #fff; /* Yazı rengini beyaz yaptım */
+  }
+
+  /* Grid Düzeni */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 sütunlu grid düzeni */
+    gap: 25px; /* Grid arasındaki boşluğu artırdım */
+  }
+
+  /* Flex Düzeni */
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap; /* Flex elemanlarının sarmasını sağladım */
+    justify-content: space-between; /* Elemanlar arasında boşluk bırakma */
+  }
+
+  /* Yatay Scroll Engelleme */
+  .overflow-x-hidden {
+    overflow-x: hidden; /* Yatay kaydırma çubuğunu engelledim */
+  }
+
+  /* Hero Section */
+  .hero {
+    padding: 60px 0; /* Hero bölümünün üst ve alt padding değerini artırdım */
+    background-color: #f4f4f4; /* Hero bölümünün arka plan rengini açık gri yaptım */
+    text-align: center; /* Hero metnini ortaladım */
+  }
+
+  /* Button Hover Efekti */
+  .button:hover {
+    background-color: #3e1d73; /* Buton hover durumunda arka plan rengini değiştirdim */
+    color: #fff; /* Buton hover durumunda yazı rengini beyaz yaptım */
+  }
+
+  /* Scrollbar özelleştirme */
+  ::-webkit-scrollbar {
+    width: 8px; /* Scrollbar genişliğini daraltım */
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #888; /* Scrollbar parmağını gri yaptım */
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Scrollbar parmağına hover efekti ekledim */
+  }
+}
+
+/* Size mixin */
+.size {
+  width: 100%;
+  height: 100vh;
+  }
+
+  .size-100 {
+    width: 100px;
+    height: 100px;
+  }
+  
+  /* Size - 150px */
+  .size-150 {
+    width: 150px;
+    height: 150px;
+  }
+  
+  /* Size - 200px */
+  .size-200 {
+    width: 200px;
+    height: 200px;
+  }
+  
+  /* Size - 250px */
+  .size-250 {
+    width: 250px;
+    height: 250px;
+  }
+  
+  /* Size - 300px */
+  .size-300 {
+    width: 300px;
+    height: 300px;
+  }

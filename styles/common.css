@@ -1,0 +1,239 @@
+/* General styles */
+body {
+  background-color: #ff0000; /* $body-color yerine uygun renk kodu */
+  overflow-x: hidden;
+}
+
+::selection {
+  background: #3E1D73; /* lightened($primary-color, 10%) yerine uygun renk */
+  color: #ffffff; /* $white yerine uygun renk */
+}
+
+/* Preloader */
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* List and Links */
+ol,
+ul {
+  list-style-type: none;
+  margin: 0px;
+}
+
+img {
+  vertical-align: middle;
+  border: 0;
+}
+
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+a,
+button,
+select {
+  cursor: pointer;
+  transition: .2s ease;
+}
+
+a.text-dark:hover {
+  color: #3E1D73 !important; /* $primary-color yerine uygun renk */
+}
+
+a:hover {
+  color: #3E1D73; /* $primary-color yerine uygun renk */
+}
+
+/* Slick Slider */
+.slick-slide {
+  outline: 0;
+}
+
+.section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.section-title {
+  margin-bottom: 80px;
+  font-family: 'YourSecondaryFont', sans-serif; /* $secondary-font yerine uygun font */
+}
+
+.bg-cover {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+/* Overlay */
+.overlay {
+  position: relative;
+}
+
+.overlay::before {
+  position: absolute;
+  content: '';
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: #000000; /* $black yerine uygun renk */
+  opacity: .5;
+}
+
+/* Utility classes */
+.outline-0 {
+  outline: 0 !important;
+}
+
+.d-unset {
+  display: unset !important;
+}
+
+.bg-primary {
+  background: #3E1D73 !important; /* $primary-color yerine uygun renk */
+}
+
+.bg-gray {
+  background: #808080 !important; /* $gray yerine uygun renk */
+}
+
+.text-primary {
+  color: #3E1D73 !important; /* $primary-color yerine uygun renk */
+}
+
+.text-color {
+  color: #333333; /* $text-color yerine uygun renk */
+}
+
+.text-dark {
+  color: #000000 !important; /* $text-color-dark yerine uygun renk */
+}
+
+.text-light {
+  color: #cccccc !important; /* $text-color-light yerine uygun renk */
+}
+
+/* Margin classes */
+.mb-10 { margin-bottom: 10px !important; }
+.mb-20 { margin-bottom: 20px !important; }
+.mb-30 { margin-bottom: 30px !important; }
+.mb-40 { margin-bottom: 40px !important; }
+.mb-50 { margin-bottom: 50px !important; }
+.mb-60 { margin-bottom: 60px !important; }
+.mb-70 { margin-bottom: 70px !important; }
+.mb-80 { margin-bottom: 80px !important; }
+.mb-90 { margin-bottom: 90px !important; }
+.mb-100 { margin-bottom: 100px !important; }
+
+.zindex-1 { z-index: 1; }
+
+.rounded-lg {
+  border-radius: 15px;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.font-secondary {
+  font-family: 'YourSecondaryFont', sans-serif !important;
+}
+
+.font-tertiary {
+  font-family: 'YourTertiaryFont', sans-serif !important;
+}
+
+.shadow {
+  box-shadow: 0px 18px 39.1px 6.9px rgba(224, 241, 255, 0.34) !important;
+}
+
+.bg-dark {
+  background-color: #222222 !important;
+}
+
+/* Icon */
+.icon {
+  font-size: 45px;
+}
+
+.icon-bg {
+  height: 100px;
+  width: 100px;
+  line-height: 100px;
+  text-align: center;
+}
+
+.icon-light {
+  color: #c8d5ef;
+}
+
+/* Slick slider */
+.slick-dots {
+  text-align: center;
+  padding-left: 0;
+}
+
+.slick-dots li {
+  display: inline-block;
+  margin: 2px;
+}
+
+.slick-dots .slick-active button {
+  background: #ffffff; /* $white yerine uygun renk */
+  width: 25px;
+}
+
+.slick-dots button {
+  height: 6px;
+  width: 12px;
+  background: rgba(255, 255, 255, 0.5); /* $white yerine uygun renk */
+  color: transparent;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: .2s ease;
+  border: 0;
+}
+
+/* Form */
+.form-control {
+  border: 0;
+  border-radius: 0;
+  border-bottom: 1px solid #cccccc; /* $border-color yerine uygun renk */
+  height: 60px;
+}
+
+.form-control:focus {
+  border-color: #3E1D73; /* $primary-color yerine uygun renk */
+  outline: 0;
+  box-shadow: none !important;
+}
+
+textarea.form-control {
+  height: 120px;
+}
+
+/* Card */
+.card {
+  border: 0;
+}
+
+.card-header {
+  border: 0;
+}
+
+.card-footer {
+  border: 0;
+}
