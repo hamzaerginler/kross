@@ -6,12 +6,12 @@ body {
   font-family: 'Roboto', sans-serif; /* $primary-font yerine */
   -webkit-font-smoothing: antialiased;
   font-size: 15px;
-  color: #333333; /* $text-color yerine */
+  color: #000000; /* $text-color yerine */
 }
 
 p, .paragraph {
   font-weight: 400;
-  color: #333333; /* $text-color yerine */
+  color: #ffffff; /* $text-color yerine */
   font-size: 15px;
   line-height: 1.8;
   font-family: 'Roboto', sans-serif; /* $primary-font yerine */

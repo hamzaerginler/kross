@@ -29,7 +29,7 @@
     return (
       <section className="py-20 bg-white text-black text-center ">
         <h2 className="text-4xl font-bold mb-10">Education</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 px-4 background-image: url('/krosscreative/public/images/backgrounds/education-bg.jpg')">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 px-4 background-image: url('/krosscreative/public/images/backgrounds/education-bg.jpg') grid-mobile">
           {educationData.map((edu, index) => (
             <div key={index} className="flex flex-col items-center text-center">
               <div className="w-12 h-12 flex items-center justify-center bg-gray-200 rounded-full mb-4">

@@ -35,3 +35,8 @@
   .navbar-dark .navbar-nav .nav-link {
     color: #fff; /* $white yerine uygun renk */
   }
+  @media (max-width: 480px) {
+    .grid-mobile {
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+  }

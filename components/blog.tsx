@@ -49,13 +49,7 @@ const Blog = () => {
  
 
   
-  <Image
-    src="/images/illustrations/leaf-orange.png"
-    alt="illustrations"
-    width={150}
-    height={150}
-    className="absolute bottom-0 left-0"
-  />
+ 
   <Image
     src="/images/illustrations/leaf-cyan-2.png"
     alt="illustrations"
@@ -63,20 +57,14 @@ const Blog = () => {
     height={150}
     className="absolute bottom-0 right-0"
   />
-  <Image
-    src="/images/illustrations/leaf-orange.png"
-    alt="illustrations"
-    width={100}
-    height={100}
-    className="absolute top-0 right-10"
-  />
+
 
  
   
 
      
       <section className="container mx-auto py-16 px-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 grid-mobile">
           {blogPosts.map((post) => (
             <div key={post.id} className="bg-white shadow-lg rounded-lg overflow-hidden">
               <Image

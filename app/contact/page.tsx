@@ -13,7 +13,7 @@ export default function Page() {
                   <h1 className="text-6xl text-center font-bold">Contacts</h1>
                 </div>
                 <Image src="/images/illustrations/leaf-yellow.png" alt="illustrations" width={120} height={120} className="absolute top-20 right-20" />
-                <Image src="/images/illustrations/leaf-orange.png" alt="illustrations" width={120} height={120} className="absolute bottom-120 right-120" />
+                <Image src="/images/illustrations/.png" alt="illustrations" width={120} height={120} className="absolute bottom-120 right-120" />
         
               </section>
         <ContactPage />

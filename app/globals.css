@@ -1,4 +1,8 @@
 @import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 
 @import "../styles/buttons.css";
 @import "../styles/common.css";
@@ -143,4 +147,8 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+html {
+  text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
 }

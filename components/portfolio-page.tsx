@@ -14,16 +14,10 @@ const PortfolioPage = () => {
                         src="/images/illustrations/page-title.png"
                         alt="background"
                         fill
-                        className="object-cover"
+                        className="object-cover grid-mobile"
                     />
                 </div>
-                <Image
-                    src="/images/illustrations/leaf-pink-round.png"
-                    alt="illustrations"
-                    width={100}
-                    height={100}
-                    className="absolute left-10 top-10"
-                />
+          
                 <Image
                     src="/images/illustrations/dots-cyan.png"
                     alt="illustrations"
@@ -35,11 +29,11 @@ const PortfolioPage = () => {
 
             <section className="py-12">
                 <div className="container mx-auto">
-                    <div className="flex justify-center space-x-10">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 place-items-center grid-mobile">
                         {["All", "UI/UX Design", "Branding", "Illustration"].map((filter) => (
                             <button
                                 key={filter}
-                                className="px-4 py-2 bg-[#4A148C] text-white rounded-md hover:bg-[#4A148C] transition"
+                                className="px-4 py-2 bg-[#4A148C] text-white rounded-md hover:bg-[#4A148C] transition grid-mobile"
                             >
                                 {filter}
                             </button>
@@ -49,7 +43,7 @@ const PortfolioPage = () => {
             </section>
 
             <section className="py-12">
-                <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 grid-mobile">
                     {[
                         "/images/portfolio/item-1.png",
                         "/images/portfolio/item-2.png",

@@ -34,7 +34,7 @@ const Portfolio = () => {
     <section className="py-10 bg-white">
       <div className="container mx-auto px-4">
         <h2 className="text-center text-3xl font-semibold mb-8">Portfolio</h2>
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 grid-mobile">
           {projects.map((project, index) => (
             <div 
               key={index} 

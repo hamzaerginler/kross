@@ -19,21 +19,20 @@ export default function Page() {
         </div>
 
 
-        <Image src="/images/illustrations/leaf-yellow.png" alt="illustrations" width={120} height={120} className="absolute top-20 right-20" />
-        <Image src="/images/illustrations/leaf-orange.png" alt="illustrations" width={120} height={120} className="absolute bottom-120 right-120" />
+        <Image src="/images/illustrations/leaf-yellow.png" alt="illustrations" width={120} height={120} className="absolute top-20 right-20 grid-mobile" />
 
       </section>
 
       <section className="py-16">
         <div className="container mx-auto px-6 flex flex-col md:flex-row gap-10">
           <div className="md:w-2/3">
-            <p className="mb-4">
+            <p className="mb-4 text-black">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
-            <p className="mb-4">
+            <p className="mb-4 text-black">
               Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
             </p>
-            <p>
+            <p className="mb-4 text-black">
               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
           </div>
@@ -51,7 +50,7 @@ export default function Page() {
       <section className="section">
         <div className="container mx-auto px-4">
           <h2 className="text-center text-6xl font-bold mb-8">Work Process</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-40">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-40 grid-mobile">
 
             <div className="text-center">
               <Image src="/images/icons/plan.png" alt="Research and Plan" width={50} height={50} className="mx-auto" />
@@ -94,7 +93,7 @@ export default function Page() {
                 alt="Jack Schenziwe"
                 width={300}
                 height={300}
-                className="rounded-lg object-cover"
+                className="rounded-lg object-cover grid-mobile"
               />
               <h4 className="text-xl font-semibold mt-4">Jack Schenziwe</h4>
               <p className="text-gray-500">Project Manager</p>
@@ -107,7 +106,7 @@ export default function Page() {
                 alt="Jane Doe"
                 width={300}
                 height={300}
-                className="rounded-lg object-cover"
+                className="rounded-lg object-cover grid-mobile"
               />
               <h4 className="text-xl font-semibold mt-4">Jack Schenziwe</h4>
               <p className="text-gray-500">Project Manager</p>
@@ -120,7 +119,7 @@ export default function Page() {
                 alt="John Smith"
                 width={300}
                 height={300}
-                className="rounded-lg object-cover"
+                className="rounded-lg object-cover grid-mobile"
               />
               <h4 className="text-xl font-semibold mt-4">Jack Schenziwe</h4>
               <p className="text-gray-500">Project Manager</p>
@@ -164,25 +163,7 @@ export default function Page() {
         </div>
       </div>
 
-      <footer className="bg-black text-white py-8">
-        <div className="container mx-auto px-4 grid grid-cols-3 gap-8">
-          <div>
-            <h4 className="font-semibold mb-4">Email</h4>
-            <p>steve.fruits@email.com</p>
-          </div>
-          <div>
-            <h4 className="font-semibold mb-4">Phone</h4>
-            <p>+880 2544 658 256</p>
-          </div>
-          <div>
-            <h4 className="font-semibold mb-4">Address</h4>
-            <p>125A, CA Commercial Area,<br />California, USA</p>
-          </div>
-        </div>
-        <div className="text-center mt-8 text-sm">
-          Copyright © 2023 Designed & Developed by ThemeFisher
-        </div>
-      </footer>
+    
       </section>
     
     

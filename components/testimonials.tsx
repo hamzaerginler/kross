@@ -11,14 +11,14 @@ const testimonialsData = [
   },
   {
     quote: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    name: "John Doe",
-    title: "CTO, Tech Company",
+    name: "Jesica Gomez",
+    title: "CEO, Funder",
     image: "/images/testimonial/client-1.png"
   },
   {
     quote: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    name: "Jane Smith",
-    title: "Founder, Startup",
+    name: "Jesica Gomez",
+    title: "CEO, Funder",
     image: "/images/testimonial/client-1.png"
   }
 ];

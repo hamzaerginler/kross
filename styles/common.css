@@ -237,3 +237,8 @@ textarea.form-control {
 .card-footer {
   border: 0;
 }
+@media (max-width: 480px) {
+  .grid-mobile {
+      grid-template-columns: repeat(1, 1fr) !important;
+  }
+}

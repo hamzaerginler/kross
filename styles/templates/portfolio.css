@@ -64,3 +64,8 @@
   .filter-controls li.active {
     font-weight: bold;
   }
+  @media (max-width: 480px) {
+    .grid-mobile {
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+  }

@@ -50,39 +50,27 @@ const BlogPage = () => {
   <div className="absolute inset-0 bg-[url('/images/illustrations/background.svg')] bg-cover bg-center opacity-30"></div>
 
   
-  <Image
-    src="/images/illustrations/leaf-orange.png"
-    alt="illustrations"
-    width={150}
-    height={150}
-    className="absolute bottom-0 left-0"
-  />
+  
   <Image
     src="/images/illustrations/leaf-cyan-2.png"
     alt="illustrations"
     width={150}
     height={150}
-    className="absolute bottom-0 right-0"
+    className="absolute bottom-0 right-0 grid-mobile"
   />
-  <Image
-    src="/images/illustrations/leaf-orange.png"
-    alt="illustrations"
-    width={100}
-    height={100}
-    className="absolute top-0 right-10"
-  />
+ 
 
  
-  <h1 className="relative z-10 text-5xl font-bold">Blogs</h1>
+  <h1 className="relative z-10 text-5xl font-bold grid-mobile">Blogs</h1>
 </section>
 
      
       <section className="container mx-auto py-16 px-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 grid-mobile">
           {blogPosts.map((post) => (
             <div key={post.id} className="bg-white shadow-lg rounded-lg overflow-hidden">
               <Image
-                className="w-full h-48 object-cover"
+                className="w-full h-48 object-cover grid-mobile"
                 src={post.imgSrc}
                 alt={post.title}
                 width={400}
@@ -105,9 +93,9 @@ const BlogPage = () => {
       <section className="bg-gray-100 py-16">
         <div className="container mx-auto text-center">
           <h2 className="text-6xl font-semibold">My Clients</h2>
-          <div className="flex flex-wrap justify-center gap-8 mt-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 grid-mobile">
             {clients.map((client, index) => (
-              <Image key={index} src={client} alt="Client Logo" width={100} height={50} />
+              <Image key={index} src={client} alt="Client Logo" width={60} height={50} />
             ))}
           </div>
         </div>
@@ -147,25 +135,7 @@ const BlogPage = () => {
         </div>
       </div>
 
-      <footer className="bg-black text-white py-8">
-        <div className="container mx-auto px-4 grid grid-cols-3 gap-8">
-          <div>
-            <h4 className="font-semibold mb-4">Email</h4>
-            <p>steve.fruits@email.com</p>
-          </div>
-          <div>
-            <h4 className="font-semibold mb-4">Phone</h4>
-            <p>+880 2544 658 256</p>
-          </div>
-          <div>
-            <h4 className="font-semibold mb-4">Address</h4>
-            <p>125A, CA Commercial Area,<br />California, USA</p>
-          </div>
-        </div>
-        <div className="text-center mt-8 text-sm">
-          Copyright © 2023 Designed & Developed by ThemeFisher
-        </div>
-      </footer>
+      
       </section>
     </>
   );
